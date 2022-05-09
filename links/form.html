@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   <hr>
+   <fieldset>
+      <legend>Особиста інформація</legend>
+   <form name="User">
+      <label for="User_name">Ім'я</label>
+      <input type="text" name="User_name" placeholder="Введіть ім'я" id="User_name" required="true">
+      <br>
+      <br>
+      <label for="User_lastname">Прізвище</label>
+      <input type="text" name="User_lastname" placeholder="Введіть прізвище" id="User_lastname" required="true">
+      <br>
+      <br>
+      <select name="city">
+         <option value="kiev">Kiev</option>
+         <option value="poltava">Poltava</option>
+         <option value="lviv">Lviv</option>
+         <option value="odessa">Odessa</option>
+         <option value="kharkov">Kharkov</option>
+      </select>
+   <hr>
+      <input type="radio" name="gender" value="male">Male
+      <br>
+      <input type="radio" name="gender" value="female">Female
+   <hr>
+      <input type="checkbox" name="car" > Я маю машину
+      <br>
+      <input type="checkbox" name="bike"> Я на велосипеді
+      <br>
+      <br>
+      <input type="submit" value="Відправити">
+      <input type="button" value="Відмінити">
+     </form>
+   </fieldset>
+</body>
+</html>
