@@ -1,2 +1,1 @@
-# Laba3_palienko
-html
+Enkort.github.io
